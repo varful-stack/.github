@@ -12,7 +12,7 @@ See [documentation](https://github.com/varful-stack/.github).
 
 Enhance and maintain the current codebase by:
 
-- adding new functionalities (security, statistics, community)
+- adding new functionalities (security, statistics, cohesion)
 - fixing spaghetti code (normalize database schema, respect SoC, DRY, SRP)
 - scaling our infrastructure (migrate our main server, use SOA architecture, build dedicated microservices)
 
