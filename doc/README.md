@@ -1,6 +1,6 @@
 # Varful Documentation
 
-Explore the problem, solution and observations made along the way.
+Explore the [problem (scope and requirements)](./problem.md) and [solution (all technical goals)](./solution.md) and observations made along the way.
 
 ## References
 
