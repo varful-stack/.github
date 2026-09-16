@@ -1,24 +1,45 @@
 # Problem
 
-- physical dangers
-  - bad wheater
-  - agressive animals
-  - missing suplies
-- personal disorganization
-  - hard to ensure long term plans regarding hiking
-  - hard to manually store previous mountain activities and its highlights
-  - hard to tell actual improvements like pace, distances
-- loneliness (missing)
-  - connecting with nature should not lack connecting with people
+Romania is home to some of Europe’s most beautiful mountain trails, but hiking in remote areas can also bring real risks. Many people enjoy the outdoors without fully understanding the dangers they may face, such as sudden weather changes, difficult terrain, and limited connectivity.
 
-Our core mission is to increase hiking safety across Romania (expanding to Europe) by providing diverse user mechanisms and information to help him better navigate the trails and promote local nature/resources too.
+This is why our long-term vision is not only to help people reach the mountains, but to help them enjoy the experience with more confidence, preparation, and connection, while also encouraging more responsible hiking and the promotion of local natural resources.
 
-The greatest mechanism out there is general awarness and human grouping. By awarness we mean reminders and information about the possible dangers that may arise on the path. The safest and memorable experience is when travelling in groups. Varful is a social platform that solves this exact problem: uniting romanians through organized events, some being hosts by authorized mountain guides.
+## Mechanisms
 
-For my Bachelor's thesis, we plan new functionalities reponsible for the security of the people's well being and lives (alerts), for tracking personal progress and achievements (statistics), and for community driven travelling, which is in fact the best mechanism of keeping people safe (cohesion, integration and unification of all our resources and functionalities).
+Mechanisms are the practical ways we help hikers make better decisions before and during their trip.
 
-High level goals:
+### Existing mechanisms
 
-- security - achieved using the "Alerts" feature
-- tracking - achieved using the "Statistics" feature
-- cohesion - achieved using the "Community" feature
+The strongest existing protection is awareness and group travel. By awareness, we mean clear reminders and information about desired trail paths. Traveling in groups creates a safer and more memorable experience, and our platform supports this by connecting travelers through organized hikes, some being hosted by authorized mountain guides.
+
+### Future mechanisms
+
+Our long-term goal is to expand these benefits through three core features: alerts, statistics, and community. Alerts provide timely information about dangers and changing conditions, forwarded to the relevant authorities; statistics help hikers track progress and improve over time; and community strengthens support, trust, and shared responsibility on the trail.
+
+## Thesis
+
+| Problem         | Solution    | Feature    |
+| --------------- | ----------- | ---------- |
+| physical danger | information | Alerts     |
+| disorganization | tracking    | Statistics |
+| no trust        | cohesion    | Community  |
+
+Problem examples:
+
+- physical danger
+  - sudden weather changes
+  - aggressive animals
+  - blocked or unstable trails
+  - medical emergencies and sudden incidents
+  - difficult terrain and poor route visibility
+- disorganization
+  - missing supplies or equipment
+  - poor trip planning and weak preparation
+  - forgotten previous hikes and useful trail knowledge
+  - unclear pace, distance, or progress over time
+  - difficulty keeping long-term hiking plans organized
+- no trust
+  - being alone and isolated makes people feel unsupported
+  - no connection with other hikers
+  - no visibility of past successful experiences on a specific trail
+  - poor communication in remote areas
