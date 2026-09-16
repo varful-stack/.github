@@ -1,130 +1,24 @@
-## Preliminary Refactor
+# Problem
 
-### 1. Accounts
+- physical dangers
+  - bad wheater
+  - agressive animals
+  - missing suplies
+- personal disorganization
+  - hard to ensure long term plans regarding hiking
+  - hard to manually store previous mountain activities and its highlights
+  - hard to tell actual improvements like pace, distances
+- loneliness (missing)
+  - connecting with nature should not lack connecting with people
 
-- User
-- UserReport
-- UserReview
-- UserSubscription
-- Guide
-- Ambassador
-- Partner
-- PartnerLocation
-- PartnerProduct
+Our core mission is to increase hiking safety across Romania (expanding to Europe) by providing diverse user mechanisms and information to help him better navigate the trails and promote local nature/resources too.
 
-### 2. Messaging
+The greatest mechanism out there is general awarness and human grouping. By awarness we mean reminders and information about the possible dangers that may arise on the path. The safest and memorable experience is when travelling in groups. Varful is a social platform that solves this exact problem: uniting romanians through organized events, some being hosts by authorized mountain guides.
 
-- Message
-- IndividualChat
-- GroupChat
+For my Bachelor's thesis, we plan new functionalities reponsible for the security of the people's well being and lives (alerts), for tracking personal progress and achievements (statistics), and for community driven travelling, which is in fact the best mechanism of keeping people safe (cohesion, integration and unification of all our resources and functionalities).
 
-### 3. Community
+High level goals:
 
-- Post
-- Blog
-- Like
-- Comment
-- Save
-
-### 4. Hiking
-
-- Hike
-- Trail
-- TrailReview
-- TrailGpx
-- Peak
-- Mountain
-
-## for marketing
-
-- Record your entire hike: Capture what matters the most: the nature, the people, and your evolution. Keep trail data such as real-time location, amazing photos, and recordings. Everything saved to the cloud, so you don't have to worry about managing storage.
-- Share the beautiful moments: You may opt to publish and distribute your recordings.
-- Report the dangers around you: Live location tracking is a feature toggled by you for serious situations. Those are vaital information in case of emergency. Easy shortcuts to reach out for help, salvamont, 112, other hikers
-
-- Cohort Funzone: people in the same group close to one another - sync their music on their devices
-- Invte people around to connect:
-- Find nearby places to stay:s
-- View your stats and become one with nature
-- high pitch sounds
-- Emergency SOS via satellite".
-- Safe estimates: will finish hike at
-- and safe "i am safe"
-- connection lost
-
-## bs
-
-- By sharing with us the trail: you gain visibility, security, and threat proctection. Think of our service as Uber.
-
-## for professor
-
-https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API
-- very much cloud storage for user generated media, 
-  - throtling
-  - limits -> user plan
-  - long records
-    - streaming to server
-    - saved client-side too
-
-## for teammates
-
-- live hike
-  - add users
-  - record trail
-  - share location
-  - report
-    - missing person
-    - danger
-  - call
-    - salvamont
-    - nearby cottage
-    - nearby person
-  - post
-    - live photos
-  - stats
-    - distance
-    - elevation
-    - heartbeat
-    - pauses
-    - times
-  - predefined route
-
-- pins
-  - cottages
-  - hikes
-- mark a trail
-- weather
-- query
-  - trail
-  - hike
-  - location
-
-## infrastructure
-
-- clients:
-  - android
-  - ios
-  - smartwatch
-  - web
-- map traffic server dedicated server
-
-## candidates
-
-- abonament target
-- SEO imagini
-- Reviews la useri dupa efectuarea drumetiilor
-- Achivments pentru postari, drumetii, mesaje, like share etc (toata activitatea)
-- upload harta gpx, render pe harta noastra
-- profile
-  - trasee
-    - cumparate
-    - parcurse
-    - favorite
-  - achievents
-  - reviews
-
-## references
-
-https://legislatie.just.ro/public/detaliidocument/7816
-https://www.chem.uaic.ro/files/File/2021-2022/licenta-iunie-iulie-2022/ghid-elaborare-lucrare-licenta.pdf
-https://www.uaic.ro/wp-content/uploads/2024/09/Anex%C4%83-la-HS19_18.07.2024.pdf
-https://laws.uaic.ro/images/cadru_normativ/regulamente/2425/Reg_privind_org_si_desf_ex_de_abs_licenta_si_disertatie_ses_iul_2025_si_feb_2026.pdf
+- security - achieved using the "Alerts" feature
+- tracking - achieved using the "Statistics" feature
+- cohesion - achieved using the "Community" feature
