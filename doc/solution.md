@@ -1,51 +1,23 @@
 # Solution
 
-## I. Preliminary Refactor
+## I. Maintenance Refactor
 
-Goals and improvements:
+Consolidate programming principles in the server's repository. This gurantees:
 
-- 4NF database normalization
-- performance
-- maintenance
-- redability
+- better mental model of the project
+- increased code redability
+- smaller bug creation rate
 
-### 1. Accounts
+Read the [plan](https://git/varful-stack/server/src/branch/main/CLAUDE.md).
 
-- User
-- UserBlock
-- UserReport
-- UserReview
-- UserSubscription
-- Guide
-- Ambassador
-- Partner
-- PartnerLocation
-- PartnerProduct
+## II. Database Normalization
 
-### 2. Messaging
+Achieve 4NF database normalization. This improves:
 
-- Message
-- IndividualChat
-- GroupChat
+- query performance
+- storage efficiency
 
-### 3. Community
-
-- Post
-- Blog
-- Like
-- Comment
-- Save
-
-### 4. Hiking
-
-- Hike
-- Trail
-- TrailReview
-- TrailGpx
-- Peak
-- Mountain
-
-## II. New Features
+## III. New Features
 
 Each new feature should contain:
 
@@ -136,10 +108,11 @@ Different levels of alerts.
 
 #### Graph
 
-The goal is to access our platform 
+The goal is to access our platform
 
 1. cell tower - his provider
 2. cell tower - any provider
+
 - emergency LEO
 - StarLink LEO
 - Mesh
@@ -147,7 +120,6 @@ The goal is to access our platform
 - send to all nearby phones
 - cache in all nearby phones (if needed)
 - first to get access to send the server data, send it
-
 
 ### 2. Statistics
 
@@ -166,7 +138,6 @@ achieved by calling specific APIs based on the provided coordinates
 
 #### Goals
 
-
 #### Business Logic
 
 #### Implementation
@@ -174,9 +145,8 @@ achieved by calling specific APIs based on the provided coordinates
 - update the terns and conditions
 - update the privacy policy
 
-
-
 Media Uploading
+
 - locations, photos, videos
 - posts integrations
 - blogs integrations
