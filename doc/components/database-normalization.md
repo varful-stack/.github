@@ -1,5 +1,6 @@
+# Database Normalization
 
-### 1. Accounts
+## 1. Accounts
 
 - User
 - UserBlock
@@ -12,13 +13,13 @@
 - PartnerLocation
 - PartnerProduct
 
-### 2. Messaging
+## 2. Messaging
 
 - Message
 - IndividualChat
 - GroupChat
 
-### 3. Community
+## 3. Community
 
 - Post
 - Blog
@@ -26,7 +27,7 @@
 - Comment
 - Save
 
-### 4. Hiking
+## 4. Hiking
 
 - Hike
 - Trail
