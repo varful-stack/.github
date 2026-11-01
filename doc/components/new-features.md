@@ -6,26 +6,51 @@ Each new feature should contain:
 - models (business logic)
 - views (buttons, UI elements)
 
-### -2 Record Trail
+### -2 Emergency Contancts
 
-Record the entire trail if the user decided a spontaneous record.
+Each user uploads a dedicated list of trusted contancts. These will be notified in case of emergency.
+These can be either:
 
-### -1 History and Favorites
+- another Varful account
+- email
+- number
 
-- old hikes
-- saved pins
-- saved locations
-- saved trails
-- drawn trails
-- old records
+### -1 Record and Live Tracking
 
-### 0. Live Tracking
+To "record" means to collect data from the user while he travels on the path.
 
-Acts as a pre-requirement. Its only goal is to send user location to the server.
+Types:
 
-- start recording types
-  - start of a hike
-  - record
+- spontaneous recording (the user agrees before starting)
+- scheduled recording (a notification is sent, the user must accept it)
+
+When starting the trail, the application logs:
+
+- carrier (mobile operator)
+
+Once per half a minute the application logs:
+
+- media
+  - photos
+  - videos
+- location
+  - longitude
+  - latitude
+  - altitude
+- map
+  - pace
+  - battery
+
+When finishing the trail, the application displays:
+
+- duration
+- distance
+- elevation
+- trail
+- pace
+
+Its only goal is to send user location to the server.
+
 - share types
   - private - only communicate with the server for security purposes
   - protected - share location by choice with other users within our features
@@ -39,6 +64,17 @@ Acts as a pre-requirement. Its only goal is to send user location to the server.
   - save location
   - add to drawn trail
   - get directions
+
+### 0. History and Favorites
+
+Create user browsable lists for:
+
+- saved locations
+- old hikes
+- saved trails
+- drawn trails
+- saved pins
+- old records
 
 ### 1. Alerts
 
@@ -81,11 +117,6 @@ Different levels of alerts.
   - scenic viewpoint
   - heavy trail traffic
   - minor terrain degradation
-
-- ro-alert
-- SOS
-- 112
-- salvamont
 
 #### Graph
 
@@ -131,3 +162,26 @@ Media Uploading
 - locations, photos, videos
 - posts integrations
 - blogs integrations
+
+- expected return type
+
+- Search and Rescue - SAR
+- Public Regulated Service - PRS
+- remind to turn on ro-alert
+- barometer
+- accelerometer
+- fall - are you okay emergency screen activated
+- offline - weather
+- coverage map for users
+- log signal strength
+- build the dead zone
+- daylight warnings
+- low battery
+- group/guides - extra
+  - warning fires when hiker something
+- offline alerts
+- closest place and directions to places with coverage
+- bluethoot - group hikes for stats
+- breadcrumb upload
+- EWSS - would cover the gap RO-ALERT leaves on the ridges
+- OSNMA - gps can be
